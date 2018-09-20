@@ -1,0 +1,5 @@
+n = input("what's your name? ")
+print("Hi", n)
+print(n, ".")
+# print(n)
+print("Hello world")
