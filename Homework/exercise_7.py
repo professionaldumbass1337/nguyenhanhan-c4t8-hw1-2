@@ -29,4 +29,11 @@ while loop == True :
                 print(x1)
                 print(x2)
     except ValueError:
+        print("Please start the program again ")
+        pass
+
+    n = input("Press E to exit or another key to continue ")
+    if n == "E" or n == "e":
+        loop = False
+    else:
         pass
